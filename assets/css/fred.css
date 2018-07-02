@@ -1,0 +1,87 @@
+*{
+    color: #999;
+}
+
+.logo a {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.logo a:focus,
+.logo a:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.default,
+.fixed {
+    background-color: #fff;
+}
+
+.navbar .nav>li>a {
+    color: #666;
+}
+
+.navbar .nav>li>a:focus,
+.navbar .nav>li>a:hover {
+    color: #2a2a2a;
+}
+
+.navbar .nav>li.current>a {
+    color: #fff;
+}
+
+section#intro {
+    background-image: url(../img/bg/bg-04_01.jpg);
+    background-size: 1920px 1280px;
+}
+
+section#intro>img {
+    opacity: 0.4;
+}
+
+
+section#intro h1 {
+    color: #fff;
+    font-size:56px;
+}
+
+section#intro h2 {
+    color: #ededed;
+    font-weight: bold;
+    font-size:40px;
+}
+
+section#intro h3 {
+    color: #ededed;
+    font-weight: bold;
+    font-size:24px;
+}
+
+section#intro h3 > span {
+    color: #3498db;
+}
+
+section#services {
+    background-image: url(../img/bg/bg-02_01.jpg);
+    background-size: 1920px 1280px;
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .default {
+        background: ##f00;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .default {
+        background: ##f00;
+    }
+
+    .fixed {
+        background: ##f00;
+    }
+}
